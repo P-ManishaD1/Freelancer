@@ -1,91 +1,70 @@
-# Freelancer
-# 💼 FreelanceFinder
+# Getting Started with Create React App
 
-**Discovering Opportunities and Unlocking Potential**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-FreelanceFinder is a modern freelancing platform that connects skilled professionals with clients and project owners across diverse industries. It helps freelancers discover opportunities tailored to their skills and interests while providing clients with a reliable talent pool.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🚀 Features
+### `npm start`
 
-- 🔍 **AI-powered Job Recommendations**  
-  Personalized freelance opportunities based on user skills, past experience, and interest areas.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- 🧑‍💼 **Profile & Portfolio Management**  
-  Freelancers can create rich profiles with work samples, certifications, and skill tags.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- 📢 **Smart Job Posting for Clients**  
-  Clients can post projects with detailed scopes, budgets, and timelines.
+### `npm test`
 
-- 💬 **In-app Messaging**  
-  Real-time chat between freelancers and clients to streamline communication.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- ⭐ **Rating & Review System**  
-  Transparent feedback to ensure trust and quality in the freelance ecosystem.
+### `npm run build`
 
-- 📊 **Analytics Dashboard**  
-  Track applications, earnings, and project success metrics.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🛠️ Tech Stack
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-| Frontend       | Backend        | Database | Authentication | AI Engine     |
-|----------------|----------------|----------|----------------|---------------|
-| React.js       | Node.js, Express.js | MongoDB  | JWT, OAuth      | Python (scikit-learn / TensorFlow) |
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📁 Project Structure
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-freelancefinder/
-├── client/ # React Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── context/
-│ │ └── App.js
-│ └── public/
-├── server/ # Node.js Backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── app.js
-├── .env
-├── README.md
-└── package.json
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-yaml
-Copy
-Edit
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## ⚙️ Setup Instructions
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Prerequisites
-- Node.js & npm
-- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
-- Python (for AI engine if enabled)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/freelancefinder.git
-cd freelancefinder
-2. Setup Backend
-bash
-Copy
-Edit
-cd server
-npm install
-npm run dev
-3. Setup Frontend
-bash
-Copy
-Edit
-cd client
-npm install
-npm start
-✅ Make sure to configure your .env files for both frontend and backend with your MongoDB URI and authentication secrets.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
